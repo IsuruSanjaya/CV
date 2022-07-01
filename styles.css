@@ -1,0 +1,110 @@
+/* body{
+
+    background: rgb(10,159,236);
+    background: linear-gradient(90deg, rgba(10,159,236,1) 6%, rgba(233,241,236,0.9643207624846813) 100%);
+
+} */
+
+img {
+    border-radius: 50%;
+    width: 250px;
+  }
+
+  /* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 30px;
+    height: 1900px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+ 
+
+  /* .ed{
+
+    padding-top: 100px;
+  } */
+
+  .container{
+
+    background-color: rgba(211, 211, 211, 0);
+    width: 450px;
+    border: 15px solid green;
+    padding: 70px;
+    margin: 20px;
+
+
+  }
+
+  /* .t{
+
+    text-align: right;
+    padding-left: 800px;
+  } */
+
+  .text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .mode {
+    float:right;
+}
+.change {
+    cursor: pointer;
+    border: 1px solid #555;
+    border-radius: 40%;
+    width: 20px;
+    text-align: center;
+    padding: 5px;
+    margin-left: 8px;
+}
+.dark{
+    background-color: #222;
+    color: #e6e6e6;
+}
+
+
+.html {width: 90%; background-color: #04AA6D;}
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 65%; background-color: #f31000;}
+.php {width: 60%; background-color: #808080;}
+.c {width: 90%; background-color: #c36868;}
+.cc{width: 90%; background-color: #5f5151;}
+.java{width: 60%; background-color: #b7de0a;}
+
+
+
+
+
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+  * {box-sizing: border-box}
+
+
+  .final{
+
+    text-align: center;
+    font-size: 2.5ch;
+  }
+
+  .signature{
+
+    padding-left: 80%;
+    height: 25%;
+    width: 50%;
+  }
+
+  /* h1.new4 {
+    border: 1px solid red;
+   
+  } */
