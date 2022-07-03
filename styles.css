@@ -5,6 +5,10 @@
 
 } */
 
+
+
+
+
 img {
     border-radius: 50%;
     width: 250px;
@@ -13,9 +17,9 @@ img {
   /* Create two equal columns that floats next to each other */
 .column {
     float: left;
-    width: 40%;
+    width: auto;
     padding: 30px;
-    height: 2900px; /* Should be removed. Only for demonstration */
+    height: auto; /* Should be removed. Only for demonstration */
   }
   
   /* Clear floats after the columns */
@@ -35,7 +39,7 @@ img {
 
     background-color: rgba(211, 211, 211, 0);
     width: 450px;
-    border: 15px solid green;
+    border: 10px solid rgb(13, 109, 243);
     padding: 70px;
     margin: 20px;
 
@@ -63,10 +67,12 @@ img {
     text-align: center;
     padding: 5px;
     margin-left: 8px;
+    
 }
 .dark{
     background-color: #222;
     color: #e6e6e6;
+    
 }
 
 
@@ -77,6 +83,10 @@ img {
 .c {width: 90%; background-color: #c36868;}
 .cc{width: 90%; background-color: #5f5151;}
 .java{width: 60%; background-color: #b7de0a;}
+.sql{width: 75%; background-color: #0a71de;}
+.sin{width: 100%; background-color: #2dde0a;}
+.eng{width: 93%; background-color: #f66b1b;}
+
 
 
 
@@ -142,6 +152,18 @@ img {
 
   
     text-align: left;
-    padding-top: 10px;
-    padding-bottom: 10px;
+
+  }
+
+/* 
+  footer */
+
+  .footer{
+
+    text-align: center;
+    
+    background: rgb(10,159,236);
+    background: linear-gradient(90deg, rgba(10,159,236,1) 6%, rgba(233,241,236,0.9643207624846813) 100%);
+    padding: 5px;
+    
   }
