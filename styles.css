@@ -13,9 +13,9 @@ img {
   /* Create two equal columns that floats next to each other */
 .column {
     float: left;
-    width: 50%;
+    width: 40%;
     padding: 30px;
-    height: 1900px; /* Should be removed. Only for demonstration */
+    height: 2900px; /* Should be removed. Only for demonstration */
   }
   
   /* Clear floats after the columns */
@@ -108,3 +108,40 @@ img {
     border: 1px solid red;
    
   } */
+
+
+
+  /* adding padding to info */
+  .ob{
+
+    padding-bottom: 25px;
+  }
+
+
+  bold the topic 
+
+ .far{
+
+    font-weight: bold;
+  }
+
+  p.light{
+
+    font-weight: lighter;
+  }
+
+  .web{
+
+    font-size: 20px;
+    font-family: 'Times New Roman';
+  }
+
+
+  /* alignment for project details */
+  .pcenter{
+
+  
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
